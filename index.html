@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airmax IA CHAT BOT</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="container">
+ <header class="app-header nav">
+  <div>
+        <h1 class="heading">Airmax AI</h1>
+        <h2 class="sub-heading">How can i help you?</h2>
+  </div>
+   <div class="img">
+    <img src="./img1.png" alt="">
+   </div>
+ </header>
+
+
+  <ul class="sugestions">
+    <li class="sugestion-item">
+        <p class="text">Help me to write a good application letter</p>
+         <span class="material-symbols-outlined">draw</span>
+    </li>
+     <li class="sugestion-item">
+        <p class="text">Help me to write a code on HTML & CSS</p>
+         <span class="material-symbols-outlined">lightbulb_2</span>
+    </li>
+     <li class="sugestion-item">
+        <p class="text">What is the use of AI (Artificial Intelligence)</p>
+         <span class="material-symbols-outlined">draw</span>
+    </li>
+     <li class="sugestion-item">
+        <p class="text">How can i cook a delicious food e.g jellof rice</p>
+         <span class="material-symbols-outlined">draw</span>
+    </li>
+  </ul>
+
+  <!-- Chat COntainer -->
+   <div class="chat-container">
+    <!-- <div class="message user-message">
+      <p class="message-text">Lorem ipsum,  dolor sit amet consectetur adipisicing elit. Quae, maxime!</p>
+    </div>
+
+    <div class="message bot-message">
+      <img src="./img.jpg" class="avatar">
+      <p class="message-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, maxime!</p>
+    </div> -->
+   </div>
+   
+  <div class="prompt-container">
+    <div class="prompt-wrapper">
+        <form action="" class="prompt-form">
+            <input type="text" class="prompt-input" placeholder="Ask Airmax AI..." required>
+            <div class="prompt-action">
+              <div class="file-upload-wrapper">
+                <img src="./download.png" alt="" class="file-preview">
+                <input type="file" accept="image/*, .pdf. .txt, .csv " id="file-input" hidden>
+
+                <button type="button"  id="add-file-btn" class="material-symbols-outlined">attach_file</button>
+                <button class="file-icon" class="material-symbols-outlined"><span class="material-symbols-outlined">
+description</button>
+                <button id="cancle-file-btn" class="material-symbols-outlined">close</button>
+
+              </div>
+            
+             
+                <button  id="send-prompe-btn" class="material-symbols-outlined"> arrow_upward</button>
+                <button type="button"id="stop-response-btn" class="material-symbols-outlined"> stop_circle</button>
+            </div>
+        </form>
+           <button id="light_mode" class="material-symbols-outlined">light_mode</button>
+              <button id="delete_btn" class="material-symbols-outlined">delete</button>
+    </div>
+    <p class="decamation-text">Airmax can make mistake, so double check</p>
+  </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
